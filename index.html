@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <title>Volunteer Form</title>
 </head>
-
 <body>
   <h1>Volunteer Form</h1>
   <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
@@ -16,18 +14,17 @@
       <p><label>Last Name: <input type="text" id="lastName" name="last_name_field" placeholder="Ex. Smith"></label></p>
       <p><label>Phone Number: <input type="text" id="phone" name="phone_field" placeholder="888-888-8888"></label></p>
       <p><label>Email Address: <input type="text" id="email" name="email_field" placeholder="joh.smith@domain.com"></label></p>
-      <p>Gender:
-        <table>
-          <tr>
-            <td>
-              <label>Male <input type="radio" id="male" name="gender_field" value="Male"></label>
-            </td>
-            <td>
-              <label>Female <input type="radio" id="female" name="gender_field" value="Female"></label>
-            </td>
-          </tr>
-        </table>
-      </p>
+      <p>Gender:</p>
+      <table>
+        <tr>
+          <td>
+            <label>Male <input type="radio" id="male" name="gender_field" value="Male"></label>
+          </td>
+          <td>
+            <label>Female <input type="radio" id="female" name="gender_field" value="Female"></label>
+          </td>
+        </tr>
+      </table>
       <p>
         <label for="age">Age:</label>
         <select name="age_field" id="age">
@@ -79,15 +76,15 @@
         <textarea id="comments" name="comments_field" placeholder="Please let us know!" cols="65" rows="15"></textarea>
       </p>
       <input type="hidden" name="hidden_field" value="zfleck">
-</fieldset>
+    </fieldset>
       <p>
         <label for="submitbutton"></label>
         <input type="submit" id="submitbutton" value="Submit" />
-</p>
-    </fieldset>
-    <p>
-      <label for="resetbutton"></label>
-      <input type="reset" id="resetbutton" value="Reset" />
-</p>
+      </p>
+        <p>
+          <label for="resetbutton"></label>
+          <input type="reset" id="resetbutton" value="Reset" />
+        </p>
+  </form>
 </body>
 </html>
