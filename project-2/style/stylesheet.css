@@ -1,0 +1,99 @@
+body {
+  font-family: sans-serif;
+  background-color: lightgrey;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  width: 100%;
+  background-color: skyblue;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: #cecece;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 30px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+nav h1 {
+  font-size: 30px;
+}
+
+main {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 10px;
+}
+
+main p {
+  font-size: 20px;
+}
+
+main h2 {
+  font-size: 25px;
+  text-align: center;
+}
+
+main h3 {
+  text-align: center;
+}
+
+main img {
+  max-height: 300px;
+  max-width: 100%;
+}
+
+main iframe {
+  max-width: 100%;
+  min-width: 40%;
+  height: 315px;
+  border: none;
+}
+
+main figure {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+main table {
+  width: 75%;
+}
+
+main td {
+  width: 50%;
+}
+
+main th {
+  text-align: left;
+}
+
+.title {
+  width: 40%;
+  padding-left: 20px;
+}
+
+.navbar {
+  width: 40%;
+  text-align: right;
+  float: right;
+  padding-right: 40px;
+}
